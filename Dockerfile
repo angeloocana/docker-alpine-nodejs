@@ -5,7 +5,8 @@ FROM alpine:3.5
 MAINTAINER angeloocana@gmail.com
 
 RUN apk update && \
-    apk add nodejs
+    apk add nodejs && \
+    apk add git
 
 #CMD ['/bin/sh']
 
